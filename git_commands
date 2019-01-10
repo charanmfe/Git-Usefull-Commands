@@ -1,0 +1,32 @@
+#Everyone Will Take ALL Latest Commits From ORIGIN DEV  (REMOTE BRANCH)
+## Please don't push/pull to ORIGIN MASTER branch
+# Please always us full remote plus branch name like 
+git pull origin dev (not like git pull)
+git push origin dev (not like git push)
+
+Final Agreed Work Flow Procedure
+-----------------------------------
+
+step 1: 
+git pull origin dev
+
+step 2: if you Create/Update/Delete any file related to your module then follow below commands
+git add <filename>    #please don't use "git add ." command
+
+step 3: commit your step2 added files
+git commit -m "my commit message"
+
+step4: after step3 use below command
+git pull origin dev
+
+step5: if in step4 you found any conflict message then instantly contact to concerned person
+resolve conflict and then again fresh commit using step2 - step4
+
+step6: final step
+git push origin dev
+
+!That's it :)
+
+
+##In any doubt please don't hesitate to contact to concerned person
+    
